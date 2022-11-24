@@ -1,0 +1,154 @@
+body{
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    color:seashell;
+    margin:0 0 0 0;
+
+    
+    
+}
+.header{
+    display:flex;
+    position: fixed;
+    height: 69px;
+    width:100%;
+    border-bottom: 1px solid seashell;
+    z-index: 12;
+    opacity:1;
+    background-color: black;
+    top: 0;
+    margin-left: 0px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header img{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 10px;
+    
+}
+nav{
+    display: flex;
+    flex-shrink: 1;
+    justify-content: flex-end;
+
+
+}
+nav ul{
+    display: flex;
+    margin: auto;
+    position:relative;
+    justify-content: flex-end;
+    right: 10px
+    list-style: none;
+    position: absolute;
+    right:15px;
+    top: 11.5px;
+    
+}
+nav ul li{
+    display: inline-flex;
+    text-decoration: underline;
+    margin: 5px;
+    font-size: 22px;
+    
+
+}
+.banner{
+    background-image: url('./Asset/img-mission-background.jpg');
+    display:flex;
+    flex-shrink: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 1200px;
+    height: 700px;
+    position:relative;
+    top:60px;
+    margin:0 auto;
+    background-size: cover;
+}
+.banner h2,h4{
+    background-color: black;
+    display: block;
+    text-align: center;;
+    padding: 10px;;
+    margin: 0 auto;
+    width:100%;
+
+}
+.month{
+    display: flex;
+    flex-basis: 1000px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top: 70px;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.row img{
+    width: 300px;
+    height: 200px;
+    display: block;
+    text-align: center;
+    margin: 25px;
+    
+
+}
+.card{
+    display: inline-block;
+
+}
+.new{
+    
+    
+    position: relative;
+    top:110px;
+   
+    background-image: url('./Asset/img-locations-background.jpg');
+    margin: 0 auto;
+}
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.item{
+    
+    margin:20px;
+    width: 200px;
+    background-color: black;
+    height: 200px;
+    opacity:1;
+    text-align: center;
+    padding: 4%;
+    font-size:large;
+
+}
+.new h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size:35px;
+    opacity: .7;
+}
+footer{
+    height:200px;
+    text-align:center;
+    position:relative;
+  top:110px;
+}
+.copyright{
+    margin-top:40px;
+    margin-left:20px;
+    text-align:left;
+    margin-bottom: 0px;;
+}
